@@ -1,0 +1,32 @@
+.col-1of1 {
+	max-width: 60%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.col-1of3 {
+	width: 33%;
+	display: inline-block;
+	padding: 0; 
+/*	text-align: center;*/
+}
+
+.grid:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+*, *:after, *:before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+@media (max-width: 480px) {
+
+	.col-1of3 {
+		width: 100%;
+	}
+
+}
