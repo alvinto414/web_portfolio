@@ -7,6 +7,11 @@ body {
 	width: 100%;
 }
 
+.fixed {
+	width: 100%;
+	position: fixed;
+}
+
 .fade-in {
    opacity: 0.5;
    transition: opacity .25s ease-in-out;
@@ -113,18 +118,35 @@ body {
 }
 
 #work {
-	margin: 0;
+	/*margin: 0;
 	background-color: #3B1B2A;
+	height: 700px;*/
+	margin: 0;
+	background: url(../img/bike.jpg);
+	background-position: center;
+	background-size: cover;
+    background-repeat: no-repeat;
 	height: 700px;
 }
 
 .project {
 	background-color: white;
 	margin: 1rem;
+	padding: 2rem;
 }
 
 .project-image {
 	width: 100%;
+}
+
+.project-description {
+	width: 100%;
+	background-color: grey;
+}
+
+.project-description p{
+	margin: 1rem;
+	color: white;
 }
 
 #contact {
