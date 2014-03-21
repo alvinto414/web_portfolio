@@ -5,14 +5,14 @@
 }
 
 .col-1of2 {
-	width: 25%;
+	width: 50%;
 	display: inline-block;
 	padding: 0; 
 /*	text-align: center;*/
 }
 
 .col-1of3 {
-	width: 33.333%;
+	width: 33.33333%;
 	display: inline-block;
 	float: left;
 	vertical-align: top;
