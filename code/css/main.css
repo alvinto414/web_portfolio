@@ -7,6 +7,10 @@ body {
 	width: 100%;
 }
 
+header {
+	z-index: 9999;
+}
+
 .container {
 	margin-right: auto;
 	margin-left: auto;
@@ -115,12 +119,17 @@ body {
 	color: white;
 }
 
-#about h2, #work h2, #contact h2 {
+#about h2, #work h2, #contact h2, #parallel h2 {
 	margin: 0;
 	padding-top: 2rem;
 	padding-left: 2rem;
 	color: white;
 	text-align: left;
+}
+
+#about img {
+	margin-top: 3rem;
+	margin-left: 2rem;
 }
 
 #work {
@@ -133,6 +142,10 @@ body {
 	background-size: cover;
     background-repeat: no-repeat;
 	height: 700px;
+}
+
+#work a {
+	text-decoration: none;
 }
 
 .project {
@@ -153,6 +166,12 @@ body {
 .project-description p{
 	margin: 1rem;
 	color: white;
+}
+
+#parallel {
+	margin: 0;
+	background-color: #0A1B2A;
+	height: 700px;
 }
 
 #contact {
