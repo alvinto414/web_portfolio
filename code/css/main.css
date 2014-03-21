@@ -55,6 +55,13 @@ body {
 	max-width: 80%;
 }
 
+#about h3 {
+	max-width: 80%;
+	margin-bottom: 0;
+	margin-left: 2rem;
+	color: white;
+}
+
 #about p {
 	max-width: 80%;
 	margin-left: 2rem;
@@ -102,6 +109,11 @@ h1 {
 h2 { 
 	font-family: 'Titillium Web', sans-serif;
 	font-size: 4rem;
+}
+
+h3 { 
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 2rem;
 }
 
 h4 {
