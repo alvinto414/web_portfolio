@@ -4,19 +4,21 @@
 	margin-left: auto;
 }
 
-.col-1of2 {
-	width: 50%;
-	display: inline-block;
-	padding: 0; 
-/*	text-align: center;*/
-}
-
 .col-1of3 {
 	width: 33.33333%;
 	display: inline-block;
 	float: left;
 	vertical-align: top;
 	padding: 0; 
+}
+
+.col-1of4 {
+	width: 25%;
+	display: inline-block;
+	margin-right: 0;
+	margin-left: 1.5rem;
+	padding: 0; 
+/*	text-align: center;*/
 }
 
 .grid:after {
@@ -47,18 +49,17 @@
 		font-size: 1.25rem;
 	}
 
-	.col-1of2 {
-		max-width: 100%;
-		display: block;
-		margin-right: auto;
-		margin-left: auto;
-	}
-
 	.col-1of3 {
 		width: 100%;
 		display: block;
 		margin-right: auto;
 		margin-left: auto;
 	}
-
+	
+	.col-1of4 {
+		width: 100%;
+		display: block;
+		margin-right: auto;
+		margin-left: auto; 
+	}
 }
