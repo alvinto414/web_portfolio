@@ -7,6 +7,12 @@ body {
 	width: 100%;
 }
 
+.container {
+	margin-right: auto;
+	margin-left: auto;
+	width: 80%;
+}
+
 .fixed {
 	width: 100%;
 	position: fixed;
@@ -131,7 +137,7 @@ body {
 
 .project {
 	background-color: white;
-	margin: 1rem;
+	margin: 0;
 	padding: 2rem;
 }
 
