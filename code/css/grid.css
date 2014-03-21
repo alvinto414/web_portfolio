@@ -14,8 +14,9 @@
 .col-1of3 {
 	width: 33%;
 	display: inline-block;
+	float: left;
+	vertical-align: top;
 	padding: 0; 
-/*	text-align: center;*/
 }
 
 .grid:after {
@@ -39,12 +40,10 @@
 	}
 
 	.col-1of3 {
-		display: block;
 		width: 100%;
-	}
-
-	#about {
-		height: auto;
+		display: block;
+		margin-right: auto;
+		margin-left: auto;
 	}
 
 }
