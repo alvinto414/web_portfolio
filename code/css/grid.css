@@ -46,7 +46,15 @@
 	}
 
 	#landing h4 {
-		font-size: 1.25rem;
+		font-size: 1.8rem;
+	}
+
+	#about h2, #work h2, #contact h2 {
+		font-size: 1.7rem;
+	}
+
+	#about h3 {
+		font-size: 1.2rem;
 	}
 
 	.col-1of3 {
