@@ -7,6 +7,18 @@ body {
 	width: 100%;
 }
 
+.fade {
+   opacity: 1;
+   transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+}
+
+.fade:hover {
+    opacity: 0.5;
+}
+
+
 #landing {
 	margin: 0;
 	background: url(../img/hk.jpg);
@@ -62,13 +74,22 @@ body {
 	color: white;
 }
 
-#about p {
+#about p, #about ul li {
 	max-width: 80%;
 	margin-left: 2rem;
 	margin-right: 0;
 	margin-bottom: 0;
 	padding: 0;
 	padding-bottom: 2rem;
+	color: white;
+}
+
+#about ul li {
+	max-width: 80%;
+	margin-left: 2rem;
+	margin-right: 0;
+	margin-bottom: 0;
+	padding: 0;
 	color: white;
 }
 
@@ -121,7 +142,7 @@ h4 {
 	font-size: 1.5rem;
 }
 
-p {
+p, ul li {
 	font-family: 'Titillium Web', sans-serif;
 	font-size: 1rem;
 }
