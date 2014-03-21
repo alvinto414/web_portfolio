@@ -4,6 +4,13 @@
 	margin-left: auto;
 }
 
+.col-1of2 {
+	width: 25%;
+	display: inline-block;
+	padding: 0; 
+/*	text-align: center;*/
+}
+
 .col-1of3 {
 	width: 33%;
 	display: inline-block;
@@ -25,8 +32,19 @@
 
 @media (max-width: 480px) {
 
+	.col-1of1 {
+		max-width: 100%;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
 	.col-1of3 {
+		display: block;
 		width: 100%;
+	}
+
+	#about {
+		height: auto;
 	}
 
 }
