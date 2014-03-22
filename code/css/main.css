@@ -85,7 +85,8 @@ header {
 
 #about {
 	margin: 0;
-	background-color: #0A1B2A;
+	/*background-color: #0A1B2A;*/
+	background-color: #12142D;
 	min-height: 700px;
 	overflow: auto;
 }
@@ -190,7 +191,8 @@ header {
 
 #connect {
 	margin: 0;
-	background-color: #1C1B2A;
+	/*background-color: #1C1B2A;*/
+	background-color: #36415D;
 	height: 700px;
 }
 
@@ -239,9 +241,14 @@ nav a, nav a:visited {
 nav a.main-menu {
 	background-color: #6E6E6E;
 	text-align: center;
+	max-height: 56px;
 }
 
 nav a:hover, nav a:active, nav a:focus {
 	background-color: gray;
 	color: white;
+}
+
+#home {
+    max-width: 22px;
 }
