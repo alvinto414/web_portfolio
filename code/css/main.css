@@ -86,7 +86,7 @@ header {
 #about {
 	margin: 0;
 	background-color: #0A1B2A;
-	height: 700px;
+	overflow: auto;
 }
 
 #about img {
@@ -119,12 +119,24 @@ header {
 	color: white;
 }
 
-#about h2, #work h2, #contact h2, #parallel h2 {
+#about h2, #work h2, #connect h2, #parallel h2 {
 	margin: 0;
 	padding-top: 2rem;
 	padding-left: 2rem;
 	color: white;
 	text-align: left;
+}
+
+#about a {
+	text-decoration: none;
+	font-weight: bold;
+	color: grey;
+}
+
+#about a:hover, #about a:focus, #about a:active {
+	color: white;
+	-webkit-transition: color 0.5s;
+	transition: color 0.5s;
 }
 
 #about img {
@@ -174,7 +186,7 @@ header {
 	height: 700px;
 }
 
-#contact {
+#connect {
 	margin: 0;
 	background-color: #1C1B2A;
 	height: 700px;
