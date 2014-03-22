@@ -86,6 +86,7 @@ header {
 #about {
 	margin: 0;
 	background-color: #0A1B2A;
+	min-height: 700px;
 	overflow: auto;
 }
 
@@ -153,6 +154,7 @@ header {
 	background-position: center;
 	background-size: cover;
     background-repeat: no-repeat;
+    min-height: 700px;
 	overflow: auto;
 }
 
