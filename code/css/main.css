@@ -47,8 +47,10 @@ header {
 
 #landing {
 	margin: 0;
-	background: url(../img/hk.jpg);
-	background-position: center;
+/*	background: url(../img/hk.jpg);
+	background-position: center;*/
+	background: url(../img/side_shot.jpg);
+	background-position: right;
 	background-size: cover;
     background-repeat: no-repeat;
 	height: 700px;
@@ -247,6 +249,25 @@ nav a.main-menu {
 nav a:hover, nav a:active, nav a:focus {
 	background-color: gray;
 	color: white;
+}
+
+#navToggle {
+	width: 100%;
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: normal;
+	display: none;
+	background-color: #6E6E6E;
+	color: #FFFFFF;
+	padding: 1em 1.25em;
+	text-decoration: none;
+	text-align: left;
+	max-height: 56px;
+	transitionL background-color 0.5s;
+	-webkit-transitionL background-color 0.5s;
+}
+
+#navToggle:hover{
+	background-color: gray;
 }
 
 #home {
