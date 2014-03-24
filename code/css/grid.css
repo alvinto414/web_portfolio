@@ -53,6 +53,10 @@ iframe {
 		margin-left: auto;
 	}
 
+	#logo {
+		padding-top: 8rem;
+	}
+
 	#landing h1 {
 		font-size: 4rem;
 		line-height: 4rem;
