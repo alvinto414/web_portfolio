@@ -11,23 +11,42 @@
 	</head>
 	<body>
 <!-- 		<header class="fixed">
-      		<nav class="grid">      
-		        <div class="col-1of3">
+			<a id="navToggle">MENU</a>
+      		<nav class="grid">   
+      			<div class="col-1of4">
+		        	<a href="index.html" class="main-menu"><img id="home" alt="logo" src="img/logo100.svg"></a>
+		        </div>   
+		        <div class="col-1of4">
 		        	<a href="#about" class="main-menu">ABOUT</a>
 		        </div>
-		        <div class="col-1of3">
+		        <div class="col-1of4">
 		        	<a href="#work" class="main-menu">WORK</a>
 		        </div>
-		        <div class="col-1of3">
-		        	<a href="#connect" class="main-menu">connect</a>
+		        <div class="col-1of4">
+		        	<a href="#connect" class="main-menu">CONNECT</a>
 		        </div>
 		    </nav>
 	    </header> -->
-		<section id="parallel">
-			<div class="col-1of2">
-				<h2>Parallel Coordinates Programming</h2>
-			<div>
-		</section>
+	    <div id="parallel">
+		    <section class="col-1of3">
+		    	<h3>
+					Project Description
+				</h3>
+				<p>
+					Create a Parallel coordinates + Scatterplot visualization that reads data from a comma-separated text file. Like last time, each parallel coordinate takes vertical "stripe" as the axis  that holds an individual data variable. Each stripe is the same height, with the minimum data value at the bottom, and the maximum at the top. To start with, all variables are shown. Each stripe is of equal width.
+				</p>
+				<p>
+					Combine this with a scatterplotter that assigns data variables to X, Y, Color, etc. The key feature is brushing between views. That is, selecting data in one view highlights the same data in the other view. This means that individual data points and groups of data points (such as all values in a particular range) must be selectable.
+				</p>
+		    </section>
+		    <section class="col-2of3">
+		    	<iframe src="http://www.sfu.ca/~apt6/IAT355/Assignment%203/AlvinTo_A3.html">
+				  <p>Your browser does not support iframes.</p>
+				</iframe>
+		    </section>
+		</div>
 	</body>
+	<script src="js/jquery.js"></script>
+    <script src="js/ui.js"></script>
 </html>
 
