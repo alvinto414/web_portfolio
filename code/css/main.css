@@ -44,6 +44,18 @@ header {
     opacity: 0.5;
 }
 
+iframe {
+	/*margin-top: 5rem;*/
+}
+
+.section_icons {
+	display: block;
+	width: 20%;
+	padding-top: 5rem;
+	margin-left: auto;
+    margin-right: auto;
+}
+
 
 #landing {
 	margin: 0;
@@ -143,10 +155,10 @@ header {
 	transition: color 0.5s;
 }
 
-#about img {
+/*#about img {
 	margin-top: 3rem;
 	margin-left: 2rem;
-}
+}*/
 
 #work {
 	margin: 0;
@@ -168,7 +180,7 @@ header {
 
 .project {
 	background-color: white;
-	margin-top: 5rem;
+	margin-top: 2rem;
 /*	padding: 2rem;*/
 }
 
@@ -189,7 +201,13 @@ header {
 #parallel {
 	margin: 0;
 	background-color: #0A1B2A;
-	height: 700px;
+	min-height: 700px;
+	overflow: auto;
+}
+
+#parallel h4 {
+	margin-left: 2rem;
+	color: white;
 }
 
 #connect {
