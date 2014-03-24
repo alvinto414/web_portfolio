@@ -49,7 +49,7 @@ header {
 	margin: 0;
 /*	background: url(../img/hk.jpg);
 	background-position: center;*/
-	background: url(../img/side_shot.jpg);
+	background: url(../img/side_shot_ii.jpg);
 	background-position: right;
 	background-size: cover;
     background-repeat: no-repeat;
@@ -60,7 +60,7 @@ header {
 	display: block;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 6rem;
+    padding-top: 12rem;
     max-width: 100px;
 }
 
@@ -97,14 +97,14 @@ header {
 	max-width: 80%;
 }
 
-#about h3 {
+#about h3, #parallel h3 {
 	max-width: 80%;
 	margin-bottom: 0;
 	margin-left: 2rem;
 	color: white;
 }
 
-#about p, #about ul li {
+#about p, #about ul li, #parallel p{
 	max-width: 80%;
 	margin-left: 2rem;
 	margin-right: 0;
@@ -125,7 +125,7 @@ header {
 
 #about h2, #work h2, #connect h2, #parallel h2 {
 	margin: 0;
-	padding-top: 2rem;
+	padding-top: 5rem;
 	padding-left: 2rem;
 	color: white;
 	text-align: left;
@@ -134,7 +134,7 @@ header {
 #about a {
 	text-decoration: none;
 	font-weight: bold;
-	color: grey;
+	color: gray;
 }
 
 #about a:hover, #about a:focus, #about a:active {
@@ -149,16 +149,17 @@ header {
 }
 
 #work {
-	/*margin: 0;
-	background-color: #3B1B2A;
-	height: 700px;*/
 	margin: 0;
+	background-color: #242537;
+	min-height: 700px;
+	overflow: auto;
+/*	margin: 0;
 	background: url(../img/bike.jpg);
 	background-position: center;
 	background-size: cover;
     background-repeat: no-repeat;
     min-height: 700px;
-	overflow: auto;
+	overflow: auto;*/
 }
 
 #work a {
@@ -167,8 +168,8 @@ header {
 
 .project {
 	background-color: white;
-	margin: 0;
-	padding: 2rem;
+	margin-top: 5rem;
+/*	padding: 2rem;*/
 }
 
 .project-image {
@@ -177,7 +178,7 @@ header {
 
 .project-description {
 	width: 100%;
-	background-color: grey;
+	background-color: gray;
 }
 
 .project-description p{
@@ -196,6 +197,13 @@ header {
 	/*background-color: #1C1B2A;*/
 	background-color: #36415D;
 	height: 700px;
+}
+
+.image_showcase img {
+/*	margin-right: auto;
+	margin-left: auto;
+	float: right;
+	max-width: 80%;*/
 }
 
 h1 { 
@@ -270,6 +278,6 @@ nav a:hover, nav a:active, nav a:focus {
 	background-color: gray;
 }
 
-#home {
+#home, #menu_list {
     max-width: 22px;
 }
