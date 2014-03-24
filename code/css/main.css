@@ -82,7 +82,7 @@ iframe {
 	margin-top: 2rem;
 	margin-left: auto;
     margin-right: auto;
-    color: white;
+    color: #FFA500;
 	text-align: center;
 	line-height: 6rem;
 }
@@ -113,7 +113,7 @@ iframe {
 	max-width: 80%;
 	margin-bottom: 0;
 	margin-left: 2rem;
-	color: white;
+	color: #FFA500;
 }
 
 #about p, #about ul li, #parallel p{
