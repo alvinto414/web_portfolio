@@ -93,11 +93,11 @@ iframe {
 	}
 
 	.project-title h2 {
-		font-size: 3.75rem;
+		font-size: 3rem;
 		margin-top: 2rem;
 		margin-bottom: 0;
 		color: white;
-		line-height: 4rem;
+		line-height: 3rem;
 	}
 
 	.project-title p {
