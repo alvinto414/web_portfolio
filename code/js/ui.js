@@ -11,7 +11,7 @@ $(document).ready(function(){
 	      if ($target.length) {
 	        var targetOffset = $target.offset().top;
 	        $('html,body')
-	        .animate({scrollTop: targetOffset}, 500);
+	        .animate({scrollTop: targetOffset}, 1000);
 	       return false;
 	      }
 	    }
@@ -23,12 +23,12 @@ $(document).ready(function(){
 	}
 
 	$("#navToggle").click(function() {
-		$("nav").slideToggle(1000);
+		$("nav").slideToggle(500);
 	});
 
 	$(".main-menu").click(function() {
 		if($("nav").show() && windowWidth < 480){
-		$("nav").slideToggle(1000);
+		$("nav").slideToggle(500);
 	}
 	});
 
