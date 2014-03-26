@@ -23,11 +23,13 @@ $(document).ready(function(){
 	}
 
 	$("#navToggle").click(function() {
-		$("nav").slideToggle(750);
+		$("nav").slideToggle(1000);
 	});
 
 	$(".main-menu").click(function() {
-		$("nav").slideToggle(750);
+		if($("nav").show() && windowWidth < 480){
+		$("nav").slideToggle(1000);
+	}
 	});
 
 	$(window).resize(function(){
