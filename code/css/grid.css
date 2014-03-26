@@ -67,7 +67,7 @@ iframe {
 	}
 
 	#logo {
-		padding-top: 8rem;
+		padding-top: 3rem;
 	}
 
 	#landing h1 {
@@ -92,6 +92,13 @@ iframe {
 	}
 
 	.col-1of3 {
+		width: 100%;
+		display: block;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	.col-2of3 {
 		width: 100%;
 		display: block;
 		margin-right: auto;
