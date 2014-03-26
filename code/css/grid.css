@@ -92,17 +92,23 @@ iframe {
 		margin-top: 0.5rem;
 	}
 
+	.project-title h2 {
+		font-size: 3.75rem;
+		margin-top: 2rem;
+		margin-bottom: 0;
+		color: white;
+		line-height: 4rem;
+	}
+
 	.project-title p {
 		max-width: 80%;
 		margin-left: 2rem;
-		width: 100%;
 		color: white;
 	}
 
 	.project-description p {
 		max-width: 80%;
 		margin-left: 2rem;
-		width: 100%;
 		color: white;
 	}
 
