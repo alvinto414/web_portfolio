@@ -112,6 +112,11 @@ iframe {
 		color: white;
 	}
 
+	.network_icons {
+		max-width: 30%;
+		margin-top: 2rem;
+	}
+
 	.col-1of3 {
 		width: 100%;
 		display: block;
