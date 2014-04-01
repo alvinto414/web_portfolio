@@ -56,6 +56,9 @@ iframe {
 }
 
 @media (max-width: 480px) {
+	.container {
+		width: 90%;
+	}
 
 	.fade-in, .fade-out:hover, .fade-out:focus, .fade-out:active {
 	    opacity: 1;
@@ -63,6 +66,11 @@ iframe {
 
 	.section_icons {
 		width: 40%;
+	}
+
+	.left_arrow, .right_arrow {
+		margin: 0;
+		max-width: 50px;
 	}
 
 	#logo {
@@ -101,10 +109,28 @@ iframe {
 		line-height: 3rem;
 	}
 
-	.project-title p, .project-description p, .project-overview p, .project-overview h4 {
-		max-width: 80%;
-		margin-left: 2rem;
+	.project-overview h4 {
+		font-size: 1rem;
+		max-width: 100%;
+		margin-top: 1rem;
+		margin-bottom: 0;
+		margin-right: auto;
+		margin-left: auto;
 		color: white;
+	}
+
+	.project-title p, .project-description p, .project-overview p, .project-overview ul {
+		max-width: 100%;
+		margin-top: 0.5rem;
+		margin-right: auto;
+		margin-left: auto;
+		color: white;
+	}
+
+	.project-images img{
+		margin-right: auto;
+		margin-left: auto;
+		max-width: 100%;
 	}
 
 	.network_icons {
