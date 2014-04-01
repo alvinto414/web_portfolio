@@ -276,7 +276,7 @@ iframe {
 .project-title p {
 	text-align: center;
 	margin-top: 2rem;
-	margin-bottom: 0;
+	margin-bottom: 2rem;
 	color: white;
 }
 
@@ -293,12 +293,14 @@ iframe {
 .project-overview h4 {
 	margin-top: 1.5rem;
 	margin-bottom: 0;
+	padding-right: 1rem;
 	color: white;
 }
 
 .project-description p, .project-overview p, .project-overview ul {
 	display: block;
 	width: 100%;
+	padding-right: 1rem;
 	color: white;
 }
 
