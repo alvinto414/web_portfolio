@@ -101,13 +101,7 @@ iframe {
 		line-height: 3rem;
 	}
 
-	.project-title p {
-		max-width: 80%;
-		margin-left: 2rem;
-		color: white;
-	}
-
-	.project-description p {
+	.project-title p, .project-description p, .project-overview p, .project-overview h4 {
 		max-width: 80%;
 		margin-left: 2rem;
 		color: white;
