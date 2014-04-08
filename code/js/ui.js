@@ -17,7 +17,7 @@ $(document).ready(function(){
 	    }
   	});
 
-	if(windowWidth < 480){
+	if(windowWidth < 1024){
 		$("#navToggle").css("display","block");
 		$("nav").hide();
 	}
@@ -27,14 +27,14 @@ $(document).ready(function(){
 	});
 
 	$(".main-menu").click(function() {
-		if($("nav").show() && windowWidth < 480){
+		if($("nav").show() && windowWidth < 1024){
 		$("nav").slideToggle(500);
 	}
 	});
 
 	$(window).resize(function(){
 	var windowWidth = $(window).width();
-		if(windowWidth > 480){
+		if(windowWidth > 1024){
 			$("#navToggle").css("display","none");
 			$("nav").show();
 		}
