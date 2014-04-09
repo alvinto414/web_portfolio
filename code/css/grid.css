@@ -123,7 +123,7 @@
 		line-height: 4.5rem;
 	}
 
-	.project_overview h4 {
+	.project_description h4, .project_overview h4 {
 		font-size: 1rem;
 		max-width: 100%;
 		margin-top: 1rem;
@@ -254,7 +254,7 @@
 		line-height: 3rem;
 	}
 
-	.project_overview h4 {
+	.project_description h4, .project_overview h4 {
 		font-size: 1rem;
 		max-width: 100%;
 		margin-top: 1rem;
