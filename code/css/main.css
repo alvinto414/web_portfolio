@@ -294,7 +294,7 @@ iframe {
 	display: block;
 }
 
-.project_overview h4 {
+.project_description h4, .project_overview h4  {
 	margin-top: 1.5rem;
 	margin-bottom: 0;
 	padding-right: 1rem;
