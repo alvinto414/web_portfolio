@@ -388,9 +388,9 @@ nav a, nav a:visited {
 nav a.main-menu {
 	background-color: #999999;
 	text-align: center;
-	padding-top: 1rem;
-	padding-left: 0;
-	max-height: 56px;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+	max-height: 50px;
 }
 
 nav a:hover, nav a:active, nav a:focus {
