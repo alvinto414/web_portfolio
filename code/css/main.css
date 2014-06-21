@@ -73,29 +73,38 @@ iframe {
     margin-right: auto;
 }
 
-.arrow{
+.arrow {
 	display: block;
     margin-left: auto;
     margin-right: auto;
     max-width: 70px;
 }
 
-.left_arrow{
+.left_arrow {
 	display: inline-block;
     margin-left: auto;
     margin-right: auto;
     max-width: 70px;
-/*    position: fixed;*/
     float: left;
 }
 
-.right_arrow{
+.right_arrow {
 	display: inline-block;
     margin-left: auto;
     margin-right: auto;
     max-width: 70px;
-/*    position: fixed;*/
     float: right;
+}
+
+.scrollup {
+    width: 80px;
+    height: 80px;
+    position: fixed;
+    bottom: 30px;
+    right: 50px;
+    display: none;
+    text-indent: -9999px;
+    background: url(../icons/up_arrow.svg) no-repeat;
 }
 
 .center_bullets {
@@ -104,7 +113,7 @@ iframe {
 
 #landing {
 	margin: 0;
-	background: url(../img/landing_bg.jpg);
+	background-color: #222426;
 	background-position: left;
 	background-size: cover;
     background-repeat: no-repeat;
@@ -115,7 +124,7 @@ iframe {
 	display: block;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 4rem;
+    padding-top: 2rem;
     max-width: 100px;
 }
 
@@ -125,9 +134,10 @@ iframe {
 	margin-top: 2rem;
 	margin-left: auto;
     margin-right: auto;
-    color: #ff931e;
+    color: #FFFFFF;
 	text-align: center;
 	line-height: 6rem;
+	font-weight: lighter;
 }
 
 #landing h4 {
@@ -138,12 +148,13 @@ iframe {
 	font-weight: normal;
 	color: #999999;
 	text-align: center;
+	font-weight: lighter;
 }
 
 #about {
 	margin: 0;
 	background-color: #7ac943;
-	min-height: 1500px;
+	min-height: 700px;
 	overflow: auto;
 }
 
@@ -155,6 +166,7 @@ iframe {
 	max-width: 80%;
 	margin-bottom: 0;
 	color: #FFFFFF;
+	font-weight: lighter;
 }
 
 #about h3 {
@@ -175,7 +187,7 @@ iframe {
 	margin-bottom: 0;
 	padding: 0;
 	padding-bottom: 2rem;
-	color: #334D5C;
+	color: #FFFFFF;
 	text-align: center;
 }
 
@@ -193,6 +205,7 @@ iframe {
 	padding-top: 0;
 	color: white;
 	text-align: center;
+	font-weight: normal;
 }
 
 #about a, .project_description a {
@@ -275,6 +288,7 @@ iframe {
 	margin-bottom: 0;
 	color: white;
 	line-height: 5rem;
+	font-weight: lighter;
 }
 
 .project_title p {
