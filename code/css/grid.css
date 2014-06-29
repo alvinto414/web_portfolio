@@ -104,7 +104,7 @@
 		font-size: 1.75rem;
 	}
 
-	#about h2, #work h2, #connect h2 {
+	#about h2, #work h2, #interests h2, #connect h2 {
 		font-size: 2.5rem;
 	}
 
@@ -228,7 +228,7 @@
 	    width: 60px;
 	    height: 60px;
 	    position: fixed;
-	    bottom: 40px;
+	    bottom: 0px;
 	    right: 0;
 	}
 
@@ -251,7 +251,7 @@
 		min-height: 600px;
 	}
 
-	#about h2, #work h2, #connect h2 {
+	#about h2, #work h2, #interests h2, #connect h2 {
 		font-size: 2rem;
 	}
 
@@ -266,7 +266,7 @@
 	}
 
 	#work {
-		min-height: 1800px;
+		min-height: 1000px;
 	}
 
 	.tile_description p {
@@ -314,6 +314,10 @@
 	.project_overview ul {
 		max-width: 85%;
 		margin-right: 0;
+	}
+
+	#interests {
+		min-height: 1000px;
 	}
 
 	.network_icons {
