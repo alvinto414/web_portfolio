@@ -125,7 +125,7 @@ iframe {
     margin-left: auto;
     margin-right: auto;
     padding-top: 2rem;
-    max-width: 100px;
+    max-width: 140px;
 }
 
 #landing h1 {
@@ -200,7 +200,7 @@ iframe {
 	list-style-type: square;
 }
 
-#about h2, #work h2, #connect h2{
+#about h2, #work h2, #interests h2, #connect h2{
 	margin: 0;
 	padding-top: 0;
 	color: white;
@@ -227,7 +227,7 @@ iframe {
 	overflow: auto;
 }
 
-#work a {
+#work a, #interests a {
 	text-decoration: none;
 }
 
@@ -239,13 +239,13 @@ iframe {
 	display: block;
 	background-color: white;
 	margin-top: 2rem;
-	height: 250px;
+	height: 180px;
 }
 
 .tile_image {
 	display: block;
 	max-width: 90%;
-	max-height: 200px;
+	max-height: 150px;
 	padding: 1rem;
 	margin-right: auto;
 	margin-left: auto;
@@ -324,6 +324,13 @@ iframe {
 
 .project_overview ul {
 	list-style: square;
+}
+
+#interests {
+	margin: 0;
+	background-color: #FF931E;
+	min-height: 900px;
+	overflow: auto;
 }
 
 #connect {
